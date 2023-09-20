@@ -68,9 +68,9 @@ Contributions and feedback are welcome! If you have suggestions, found issues, o
 
 **Muhammad Shahbaz**
 
-- Email: [YourEmail@example.com](mailto:shahbiqureshi33@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mshahbazq)
-- GitHub: [Your GitHub Profile](https://github.com/mshahbazq)
+- Email: [shahbiqureshi33@gmail.com](mailto:shahbiqureshi33@gmail.com)
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/mshahbazq)
+- GitHub: [My GitHub Profile](https://github.com/mshahbazq)
 
 ## License
 
