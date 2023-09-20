@@ -1,19 +1,25 @@
 POST http://127.0.0.1:8000/signup
 Content-Type: application/json
 
-{ "username": "zack1", "password": "Pass1234!", "email": "zack1@gmail.com" }
+{ "username": "zack14", "password": "Pass1234!", "email": "zack14@gmail.com" }
 
 ###
 
 POST http://127.0.0.1:8000/login
 Content-Type: application/json
 
-{ "username": "msq", "password": "Pass1234!" }
+{ "username": "zack14", "password": "Pass1234!" }
 
 ###
 
 GET http://127.0.0.1:8000/test_token
 Content-Type: application/json
 Authorization: Token 18f676c5f29ea06f721d5ca523969783952437fe
+
+{ }
+
+###
+POST http://127.0.0.1:8000/get_audit_loggs
+Content-Type: application/json
 
 { }

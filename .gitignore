@@ -1,2 +1,3 @@
 venv/
+auditloggs/logs/
 db.sqlite3

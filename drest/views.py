@@ -9,7 +9,8 @@ from rest_framework.authtoken.models import Token
 
 
 from .serializers import UserSerializer
-
+from auditloggs.models import AuditLog
+from .serializers import AuditLogSerializer
 
 @api_view(['POST'])
 def signup(request):
@@ -39,3 +40,12 @@ def login(request):
 @permission_classes([IsAuthenticated])
 def test_token(request):
     return Response("passed for {0}".format(request.user.email))
+
+@api_view(['POST'])
+def get_audit_loggs(request):
+    try:
+        audit_logs = AuditLog.objects.all()
+        serializer = AuditLogSerializer(audit_logs, many=True)
+        return Response(serializer.data)
+    except:
+        return Response({"details":"Audit-loggs Not found."}, status=status.HTTP_404_NOT_FOUND)
