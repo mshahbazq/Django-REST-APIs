@@ -1,4 +1,4 @@
-# Django REST APIs - Project Title
+# - Django REST APIs -
 
 ## Introduction
 
